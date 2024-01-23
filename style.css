@@ -1,0 +1,37 @@
+
+body { background-image: url("img/fond.png"); background-size: cover  }
+p {text-align: center; margin-bottom: 50px;}
+
+.titre_a
+{
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-size: 30px;
+}
+
+.bandeau {text-align: center }
+
+
+/* Media query for Mobile devices*/
+@media only screen and (min-width : 285px) and (max-width : 480px) {
+	
+	.barre { display: none}
+	.taille {height: 300px ; width: auto}
+	.taillereduc {height:380px ; width: auto; margin-top: 50px ; max-width: 400px}
+	.ima {margin-right: 0px ; }
+	.logoreduc {height:120px ; width: auto}
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+	
+	.barre { display: none}
+	.ima {margin-bottom: 15px ; }
+}
+
+/* Desktops and laptops  */
+@media only screen and (min-width:1025px) {
+	
+	.burger {display: none}
+	.ima {margin-right: 15px ; }
+}
+
